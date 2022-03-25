@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>394</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Ubuntu Condensed</family>
+    <pointsize>16</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Calculator</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>381</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	width:50px;
+	height:30px;
+	background-color: white;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:click{
+	background-color: pink;
+}</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="2">
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="pushButton">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>/</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>--</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>*</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>+</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(255, 190, 111);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(119, 118, 123);
+	width:50px;
+	height:50px;
+	border:none;
+}
+
+QPushButton:hover{
+	background-color: silver;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>=</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(61, 56, 70);
+	width:50px;
+	height:50px;
+	border:none;
+	color: white;
+}
+
+QPushButton:hover{
+	background-color: gray;
+}
+
+QPushButton:target{
+	background-color: pink;
+}</string>
+       </property>
+       <property name="text">
+        <string>clear</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>420</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none;
+background-color: rgb(164, 152, 57);</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
